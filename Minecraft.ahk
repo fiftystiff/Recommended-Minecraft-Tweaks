@@ -5,7 +5,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 #IfWinActive Minecraft
 
-
+; Auto-mining
+; Press Alt-Comma to activate/deactivate
+; Runs forward while holding down LMB
 !,::
 KeyDown1 := !KeyDown1
 If KeyDown1
@@ -22,6 +24,13 @@ Else
 }
 Return
 
+
+; Water-bucket help
+; Switches to inventory slot 4, then spam clicks RMB to place water bucket 
+; Look down and hold 4MB to use
+; If you let go on an odd number (water bucket placed down) the script will click one more time to pick up the water
+; If you die regularly, adjust the Sleep number until it usually is successful
+; Adjust the SendInput number to whichever slot you keep a water bucket in
 XButton1::
 EvenOdd = 0
 SendInput {4}
