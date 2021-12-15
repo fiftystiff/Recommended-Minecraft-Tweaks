@@ -1,28 +1,18 @@
 # 1.18.1 Recommended Install Guide
-1. Install Fabric
-   1. Run "fabric-installer-X.X.X.jar"
-   2. Make sure you are in the "Client" tab
-   3. Set the Minecraft version to "1.18.1"
-   4. Leave the install location as the default (unless you have installed Minecraft in a non-default location)
-   5. Make sure "Create Profile" is checked
-   6. Click install
-   7. A dialog will appear that says something about the Fabric API; you can just click "OK"
-   8. Close the installer
-2. Install Iris/Sodium
-   1. Run "Iris-Installer-X.X.X.jar"
-   2. Select edition "Iris & Sodium"
-   3. Select game version "1.18.1"
-   4. Select install directory ".minecraft" (unless you have installed minecraft in a non-default location)
-   5. Make sure the "Install as Fabric Mod" checkbox is checked
-   6. Click "Install"
-   7. If there is a popup about an existing mods folder, just click "OK"
-   8. Close the installer
-3. Install Other Mods
-   1. Navigate to your ".minecraft" folder
-   2. Drag the "mods" folder from the ZIP to the ".minecraft" folder
-4. Install Shaderpacks
-   1. Navigate to your ".minecraft" folder
-   2. Drag the "shaderpacks" folder from the ZIP to the ".minecraft" folder
-5. Install Resourcepacks
-   1. Navigate to your ".minecraft" folder
-   2. Drag the "resourcepacks" folder from the ZIP to the ".minecraft" folder
+
+## Manual Install
+1. Navigate to your Minecraft install folder
+2. Copy and Paste the following into your Minecraft install folder
+   1. mods
+   2. resourcepacks
+   3. shaderpacks
+   4. versions
+
+
+## Script Install (still questionable)
+### Windows
+1. Click on "1.18.1 Windows Auto-Installer.bat" to run it
+2. Follow the prompt for the Minecraft path; if you don't know your install path, just hit "y" for "yes"
+3. The script will copy relevant files and when you open the Minecraft launcher you should have an option for Fabric 1.18.1. Choose this and start Minecraft; the installed mods should then be running.
+### Linux/Mac
+Not yet complete
