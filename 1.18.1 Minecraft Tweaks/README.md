@@ -1,4 +1,4 @@
-# 1.18.1 Recommended Install Guide
+# 1.18.1 Recommended Minecraft Tweaks Install Guide
 
 ## Manual Install
 1. Navigate to your Minecraft install folder
