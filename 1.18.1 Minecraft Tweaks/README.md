@@ -7,6 +7,7 @@
    2. resourcepacks
    3. shaderpacks
    4. versions
+3. In the Minecraft launcher, add a new installation and when selecting the version select the fabric version you just added from the list
 
 
 ## Script Install (still questionable)
